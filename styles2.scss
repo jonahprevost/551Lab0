@@ -1,0 +1,22 @@
+$color: rgb(0,153,51);
+
+%scss{
+font-size: 20px;
+color:$color;
+}
+
+ul {
+    color: $color;
+}
+
+.intro{
+    @extend %scss
+    border: 1px solid black; 
+}
+
+div {
+    p{
+    font-weight: italic; 
+    color: $color;
+    }
+}
